@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Next Level Gaming and Esports Arena logo</title>
+  <desc id="desc">Neon purple NL esports logo with NEXT LEVEL wordmark and Gaming and Esports Arena subtitle.</desc>
+  <defs>
+    <linearGradient id="purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC"/>
+      <stop offset="45%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#C084FC" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Transparent background -->
+
+  <!-- Circular esports swoosh -->
+  <path d="M210 104 A145 145 0 0 1 345 185"
+        fill="none" stroke="#17122A" stroke-width="34" stroke-linecap="round"/>
+  <path d="M210 104 A145 145 0 0 1 345 185"
+        fill="none" stroke="url(#purple)" stroke-width="12" stroke-linecap="round" filter="url(#softGlow)"/>
+  <path d="M350 185 A145 145 0 0 1 222 316"
+        fill="none" stroke="#17122A" stroke-width="34" stroke-linecap="round"/>
+  <path d="M350 185 A145 145 0 0 1 222 316"
+        fill="none" stroke="#8B5CF6" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- Stylised NL monogram -->
+  <path d="M125 160 L176 160 L176 247 L224 160 L275 160 L275 319 L224 319 L224 235 L176 319 L125 319 Z"
+        fill="url(#purple)" filter="url(#softGlow)"/>
+  <path d="M250 160 L315 160 L315 272 L365 272 L365 319 L250 319 Z"
+        fill="#F5F3FF"/>
+
+  <!-- Wordmark -->
+  <text x="405" y="235"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="102"
+        font-weight="900"
+        letter-spacing="5"
+        fill="#FFFFFF">NEXT LEVEL</text>
+
+  <rect x="407" y="260" width="610" height="3" rx="2" fill="url(#glow)"/>
+
+  <text x="410" y="305"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="27"
+        font-weight="700"
+        letter-spacing="8"
+        fill="#C084FC">GAMING &amp; ESPORTS ARENA</text>
+
+  <text x="410" y="350"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="18"
+        font-weight="600"
+        letter-spacing="6"
+        fill="#A1A1AA">PLAY • COMPETE • LEVEL UP</text>
+</svg>
